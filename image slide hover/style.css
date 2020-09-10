@@ -1,0 +1,41 @@
+body{
+    background-color: darkseagreen;
+}
+
+.container{
+    width: 450px;
+    height: 300px;
+    margin: 150px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px black;
+    position: relative;
+    overflow: hidden;
+
+}
+.container img{
+    height: inherit;
+    width: inherit;
+    box-shadow: 0 5px 10px black;
+    transition: all 1s;
+}
+
+.container .content{
+    position: absolute;
+    bottom: -51%;
+    background: linear-gradient(45deg,blueviolet,deeppink);
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    transition: all 1s;
+}
+
+.container:hover .content{
+    bottom: 0%;
+    transition: all 1s;
+
+}
+
+.container:hover img{
+    transform: translateY(-40%);
+    transition: all 1s;
+}
