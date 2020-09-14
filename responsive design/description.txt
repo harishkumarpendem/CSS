@@ -1,0 +1,11 @@
+Responsive Design
+--------------------------------------------------
+-> view ports
+-> media quaries
+-> use fluid dimensions instead of fixed
+-> mobile first approach
+
+mobile  ->  0-500px
+tablet  ->  501-768px
+laptop  ->  769-1200px
+wide    ->  >1201px
